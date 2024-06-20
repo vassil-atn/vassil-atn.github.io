@@ -18,8 +18,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+First year PhD (DPhil) student in Robotics with the Dynamic Robot Systems group at the Oxford Robotics Institute, University of Oxford. My main interests are in legged robot locomotion and loco-manipulation. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I graduated from the University of Glasgow with a BEng Mechanical Engineering in 2017, and from the Delft University of Technology with an MSc Robotics in 2023. My Master's thesis was on Curriculum-based DRL for agile jumping in quadruped robots.
