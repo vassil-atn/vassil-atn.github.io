@@ -1,0 +1,304 @@
+
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <!-- Title -->
+  <title>Vassil Atanassov - University of Oxford</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1000">
+
+  <!-- Isotope JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+
+  <!-- Custom Style -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+  </style>
+</head>
+
+<body id="body">
+
+  <div id="main">
+    <div id="intro">
+      <div id="intro-text">
+        <h1>Vassil Atanassov</h1>
+        <p>
+          Hey! I am a second year PhD (DPhil) student in Robotics with the Dynamic Robot Systems group at the Oxford Robotics Institute, University of Oxford. My main interests are in legged robot locomotion and loco-manipulation and I'm working under the supervision of Prof. Ioannis Havoutis. 
+
+          Previously, I graduated from the University of Glasgow with a BEng Mechanical Engineering in 2017, and from the Delft University of Technology with an MSc Robotics in 2023. My Master's thesis was on Curriculum-based DRL for agile jumping in quadruped robots under the supervision of Prof. Cosimo Della Santina.
+		<br><br>
+		<a href="CV_Vassil_Atanassov.pdf">CV</a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://github.com/vassil-atn">Github</a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://scholar.google.com/citations?user=kgJpY4IAAAAJ&hl=en">Google Scholar</a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://twitter.com/vassil-atn">Twitter</a>
+        <br><br>
+        vassilatanassov at robots dot ox dot ac dot uk
+        <br><br>
+        </p>
+      </div>
+      <div id="intro-image">
+        <img src="media/prof_pic.jpg">
+      </div>
+    </div>
+
+	<div id="filters" class="button-group">
+        <!-- <button class="button" data-filter="*">Show All</button> -->
+        <button class="button" data-filter=".highlight">Highlights</button>
+        <button class="button is-checked" data-filter=".publication">Publications</button>
+        <!-- <button class="button" data-filter=".talk">Talks</button> -->
+        <button class="button" data-filter=".misc">Misc</button>
+      </div>
+
+      <div class="grid">
+
+        <!-- Highlights -->
+        <div class="list-item highlight description" data-category="highlight">
+          <h3> Learning legged locomotive behaviours with unsupervised skill discovery and with no task rewards.</h3>
+
+        </div>
+
+        <!-- Preview Videos -->
+        <div class="list-item highlight previews" data-category="highlight">
+          <img src="media/skill_disc_1.gif" alt="" width="300px" /></a>
+		      <img src="media/skill_disc_2.gif" alt="" width="300px" /></a>
+          <img src="media/skill_disc_3.gif" alt="" width="300px" /></a>
+        </div>
+
+        <div class="list-item highlight description" data-category="highlight">
+          <h3> Agile quadruped jumping through curriculum-based DRL.</h3>
+
+        </div>
+
+        <!-- Preview Videos -->
+        <div class="list-item highlight previews" data-category="highlight">
+          <img src="media/jumps_1.gif" alt="" width="300px" /></a>
+		      <img src="media/jumps_2.gif" alt="" width="300px" /></a>
+          <img src="media/jumps_3.gif" alt="" width="300px" /></a>
+        </div>
+
+        <!-- Truncated Set of Highlights (Shown by Default) -->
+        <div id="main-highlights">
+
+          <div class="list-item highlight" data-category="highlight">
+          </div>
+
+        </div>
+
+
+      <!-- Publications -->
+
+      <div class="list-item publication" data-category="publication">
+        <div class="project-description">
+          <h3><a href="https://arxiv.org/abs/2410.07877"> Constrained Skill Discovery: Quadruped Locomotion with Unsupervised Reinforcement Learning
+          </a></h3>
+          <p>
+            <b>Vassil Atanassov</b>, Wanming Yu, Alexander L. Mitchell, Mark N. Finean and Ioannis Havoutis <br>
+            <i>Preprint</i><br>
+          </p>
+          <div>
+            <a href="https://arxiv.org/abs/2410.07877">PDF</a>
+          </div>
+        </div>
+        <div id="teaser-image">
+          <img src="media/skill_disc.png" >
+        </div>
+      </div>
+
+
+      <div class="list-item publication" data-category="publication">
+        <div class="project-description">
+          <h3><a href="https://arxiv.org/abs/2401.16337"> Curriculum-based Reinforcement Learning for Quadrupedal Jumping: A Reference-free Design
+          </a></h3>
+          <p>
+            <b>Vassil Atanassov</b>, Jiatao Ding, Jens Kober, Ioannis Havoutis and Cosimo Della Santina <br>
+            <i>IEEE Robotics and Automation Magazine</i><br>
+          </p>
+          <!-- <a href="https://sites.google.com/berkeley.edu/curriculum-jumping">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp; -->
+          <div>
+            <a href="https://arxiv.org/abs/2401.16337">PDF</a>
+            <a href="https://www.youtube.com/watch?v=nRaMCrwU5X8">Video</a>
+          </div>
+        </div>
+        <div id="teaser-image">
+          <img src="media/jumping_paper.jpg">
+        </div>
+      </div>
+
+
+      <div class="list-item publication" data-category="publication">
+        <div class="project-description">
+          <h3><a href="https://ieeexplore.ieee.org/document/10552408">Robust Quadrupedal Jumping with Impact-Aware Landing: Exploiting Parallel Elasticity
+          </a></h3>
+          <p>
+            Jiatao Ding, <b>Vassil Atanassov</b>, Edoardo Panichi, Jens Kober and Cosimo Della Santina <br>
+            <i>IEEE Transactions on Robotics</i><br>
+            <a href="https://doi.org/10.1109/TRO.2024.3411988">DOI</a>
+          </p>
+        </div>
+        <div id="teaser-image">
+          <img src="media/model_based_jump.png">
+        </div>
+      </div>
+
+      <div class="list-item publication" data-category="publication">
+        <div class="project-description">
+          <h3><a href="https://ieeexplore.ieee.org/document/10550040">  Quadrupedal Locomotion With Parallel Compliance: E-Go Design, Modeling, and Control
+          </a></h3>
+          <p>
+            Jiatao Ding, Perry Posthoorn, <b>Vassil Atanassov</b>, Fabio Boekel, Jens Kober and Cosimo Della Santina <br>
+            <i>IEEE/ASME Transactions on Mechatronics</i><br>
+            <a href="https://doi.org/10.1109/TMECH.2024.3402321">DOI</a>
+          </p>
+        </div>
+        <div id="teaser-image">
+          <img src="media/PEA_robot.png">
+        </div>
+      </div>
+
+
+      <!-- Services -->
+	  <!-- <div class="list-item misc" data-category="misc">
+		<p class="date">2022</p>Co-Organizer, CoRL Workshop on <a href="https://sites.google.com/view/roboadapt/">Learning to Adapt and Improve in the Real World</a>
+	  </div> -->
+
+
+
+      <!-- Footer -->
+      <div id="footer">
+        Website template by <a href="https://andyzeng.github.io/">Andy Zeng</a>.
+      </div>
+
+
+      <script>
+
+        // Isotope grid.
+        var $grid = $('.grid').isotope({
+          itemSelector: '.list-item',
+          layoutMode: 'fitRows',
+          transitionDuration: 0,
+          stagger: 10,
+          initLayout: true,
+          getSortData: {
+            name: '.name',
+            symbol: '.symbol',
+            number: '.number parseInt',
+            category: '[data-category]',
+            weight: function (itemElem) {
+              var weight = $(itemElem).find('.weight').text();
+              return parseFloat(weight.replace(/[\(\)]/g, ''));
+            }
+          }
+        });
+
+        // Wait for DOM to be ready
+        $(document).ready(function() {
+            // Initial layout
+            $grid.isotope('layout');
+            
+            // Get the stored filter value or default to highlights
+            var defaultFilterValue = localStorage.getItem('filterValue') || '.highlight';
+            
+            // Apply the filter
+            $grid.isotope({ 
+                filter: defaultFilterValue 
+            });
+            
+            // Add initialized class
+            $grid.addClass('is-initialized');
+            
+            // Update button states
+            var buttons = document.getElementsByClassName("button");
+            for (var currButton of buttons) {
+                if (currButton.getAttribute('data-filter') == defaultFilterValue) {
+                    currButton.classList.add('is-checked');
+                } else {
+                    currButton.classList.remove('is-checked');
+                }
+            }
+        });
+
+        // Relayout after images load
+        $grid.imagesLoaded().progress(function() {
+            $grid.isotope('layout');
+        });
+
+        // Bind filter button click
+        $('#filters').on('click', 'button', function () {
+            var filterValue = $(this).attr('data-filter');
+            localStorage.setItem('filterValue', filterValue);
+            $grid.isotope({ filter: filterValue });
+        });
+
+        // Change is-checked class on buttons
+        $('.button-group').each(function (i, buttonGroup) {
+            var $buttonGroup = $(buttonGroup);
+            $buttonGroup.on('click', 'button', function () {
+                $buttonGroup.find('.is-checked').removeClass('is-checked');
+                $(this).addClass('is-checked');
+            });
+        });
+
+        function update_isotope() {
+            var defaultFilterValue = localStorage.getItem('filterValue') || '.highlight';
+            
+            $grid.isotope({ 
+                filter: defaultFilterValue,
+                complete: function() {
+                    // Update button states after filter is complete
+                    var buttons = document.getElementsByClassName("button");
+                    for (var currButton of buttons) {
+                        if (currButton.getAttribute('data-filter') == defaultFilterValue) {
+                            currButton.classList.add('is-checked');
+                        } else {
+                            currButton.classList.remove('is-checked');
+                        }
+                    }
+                }
+            });
+        }
+
+        function toggle_bio() {
+            var x = document.getElementById("more-bio");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+
+        function toggle_highlights() {
+            var x = document.getElementById("main-highlights");
+            var y = document.getElementById("more-highlights");
+            var b = document.getElementById("toggle_highlights_button")
+            if (y.style.display === "none") {
+                x.style.display = "none";
+                y.style.display = "block";
+                b.innerHTML = "Show less"
+                update_isotope();
+            } else {
+                x.style.display = "block";
+                y.style.display = "none";
+                b.innerHTML = "Show more"
+                update_isotope();
+            }
+        }
+
+        update_isotope();
+
+      </script>
+</body>
+
+</html>
